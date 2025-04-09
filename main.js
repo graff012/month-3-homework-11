@@ -18,7 +18,7 @@ db.students.insertMany([
     age: 15,
     class: "9-A",
     subjects: ["Matematika", "Fizika", "Informatika"],
-    baho: {
+    grade: {
       matematika: 5,
       fizika: 4,
       informatika: 5
@@ -30,7 +30,7 @@ db.students.insertMany([
     age: 14,
     class: "8-B",
     subjects: ["Adabiyot", "Tarix", "Ingliz tili"],
-    baho: {
+    grade: {
       adabiyot: 5,
       tarix: 5,
       ingliz_tili: 4
@@ -42,7 +42,7 @@ db.students.insertMany([
     age: 16,
     class: "10-A",
     subjects: ["Matematika", "Kimyo", "Biologiya"],
-    baho: {
+    grade: {
       matematika: 4,
       kimyo: 5,
       biologiya: 4
@@ -54,7 +54,7 @@ db.students.insertMany([
     age: 15,
     class: "9-B",
     subjects: ["Fizika", "Ingliz tili", "Geografiya"],
-    baho: {
+    grade: {
       fizika: 3,
       ingliz_tili: 5,
       geografiya: 4
@@ -66,7 +66,7 @@ db.students.insertMany([
     age: 17,
     class: "11-A",
     subjects: ["Matematika", "Fizika", "Informatika"],
-    baho: {
+    grade: {
       matematika: 5,
       fizika: 5,
       informatika: 5
